@@ -1,0 +1,16 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: $font-primary;
+  font-weight: $default-font-weight;
+  color: $color-dark-xl;
+  font-size: $default-font-size;
+  position: relative;
+}
+
+.container {
+  max-width: $size-main;
+  margin: 0 auto;
+  padding: 0 40px;
+  box-sizing: border-box;
+}

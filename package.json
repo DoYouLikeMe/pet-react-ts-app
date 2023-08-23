@@ -43,6 +43,7 @@
   },
   "devDependencies": {
     "@craco/craco": "^7.1.0",
+    "react-router-dom": "^6.15.0",
     "sass": "^1.64.2",
     "sass-loader": "^13.3.2"
   }

@@ -1,0 +1,28 @@
+.heading {
+  font-family: $font-secondary;
+  font-weight: $default-font-weight;
+  color: $color-dark-l;
+  line-height: 130%;
+  font-size: 44px;
+  margin: 0;
+  &_secondary {
+    font-size: 32px;
+  }
+  &_medium {
+    font-size: 20px;
+    line-height: 115%;
+  }
+  &_small {
+    font-size: 15px;
+    line-height: 110%;
+  }
+}
+
+.paragraph {
+  margin: 0;
+  &_small {
+    font-size: 12px;
+    line-height: 150%;
+    color: $color-dark-m;
+  }
+}

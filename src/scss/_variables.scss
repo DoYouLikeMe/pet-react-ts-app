@@ -1,3 +1,7 @@
+// Backgrounds-images
+
+$header-bg: url("../images/header/header-bg.png");
+
 // Color Styles
 
 $color-light-xl: #ffff;
@@ -14,9 +18,8 @@ $color-primary: #fddcc4;
 
 // Gradients
 
-$start-screen-gradient-background: lightgray 0% 0% / 110.00000238418579px
-    110.00000238418579px repeat,
-  radial-gradient(237.5% 111.8% at 0% 0%, #5b483a 0%, #262425 100%), #211f20;
+$start-screen-gradient-background: $header-bg,
+  radial-gradient(100% 215.42% at 0% 0%, #5b483a 0%, #262425 100%) #211f20;
 $footer-gradient-background: lightgray 0% 0% / 110.00000238418579px
     110.00000238418579px repeat,
   radial-gradient(549.89% 73.65% at 5.73% 50%, #513d2f 0%, #1a1a1c 100%),
@@ -26,3 +29,12 @@ $footer-gradient-background: lightgray 0% 0% / 110.00000238418579px
 
 $font-primary: "Arial", sans-serif;
 $font-secondary: "Georgia", sans-serif;
+$default-font-weight: 400;
+$default-font-size: 15px;
+$default-line-height: 160%;
+
+// Display Sizes
+
+$size-main: 1280px;
+$size-tablet: 768px;
+$size-mobile: 425px;
