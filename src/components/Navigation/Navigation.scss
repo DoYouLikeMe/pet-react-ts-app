@@ -4,6 +4,10 @@
     display: flex;
     flex-wrap: wrap;
     gap: 35px;
+    &_mobile {
+      flex-direction: column;
+      align-items: center;
+    }
   }
   &__link {
     color: $color-dark-s;
@@ -22,6 +26,9 @@
         bottom: -5px;
         position: absolute;
       }
+    }
+    @media (max-width: $size-tablet) {
+      font-size: 32px;
     }
   }
   &_main {

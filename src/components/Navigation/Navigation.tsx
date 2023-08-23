@@ -1,9 +1,27 @@
 import {NavLink} from "react-router-dom";
 
-export const Navigation = () => {
+interface NavigationInterface {
+  isMobile: boolean;
+}
+
+export const Navigation = (props: NavigationInterface) => {
+  const {isMobile} = props;
+
   return (
-    <nav className="navigation navigation_main">
-      <ul className="navigation__list">
+    <nav
+      className={
+        isMobile
+          ? "navigation navigation_mobile"
+          : "navigation navigation_main "
+      }
+    >
+      <ul
+        className={
+          isMobile
+            ? "navigation__list navigation__list_mobile"
+            : "navigation__list "
+        }
+      >
         <li className="navigation__item">
           <NavLink className="navigation__link" to="/">
             About the shelter
