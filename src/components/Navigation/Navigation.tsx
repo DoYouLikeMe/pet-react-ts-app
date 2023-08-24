@@ -2,18 +2,17 @@ import {NavLink} from "react-router-dom";
 
 interface NavigationInterface {
   isMobile: boolean;
+  isSecondary?: boolean;
 }
 
 export const Navigation = (props: NavigationInterface) => {
-  const {isMobile} = props;
+  const {isMobile, isSecondary} = props;
 
   return (
     <nav
-      className={
-        isMobile
-          ? "navigation navigation_mobile"
-          : "navigation navigation_main "
-      }
+      className={`navigation 
+      ${isMobile ? "navigation_mobile" : "navigation_main"} 
+      ${isSecondary ? "navigation_secondary" : ""}`}
     >
       <ul
         className={

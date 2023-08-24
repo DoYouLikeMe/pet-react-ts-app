@@ -17,8 +17,8 @@ export const Header = () => {
     <header className={isMainPage ? "header" : "header header_secondary"}>
       <div className="container">
         <div className="header__top">
-          <Logo />
-          <Navigation isMobile={false} />
+          <Logo isSecondary={!isMainPage} />
+          <Navigation isSecondary={!isMainPage} isMobile={false} />
           <button
             className={
               isMobileMenuActive

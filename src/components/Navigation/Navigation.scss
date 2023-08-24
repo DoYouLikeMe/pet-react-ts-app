@@ -15,6 +15,12 @@
     font-size: 15px;
     line-height: 160%;
     position: relative;
+    .navigation_secondary & {
+      color: $color-dark-l;
+      &.active {
+        color: $color-dark-3xl;
+      }
+    }
     &.active {
       color: $color-light-s;
       &::after {
