@@ -7,4 +7,8 @@
     justify-content: space-between;
     align-items: center;
   }
+  &_secondary {
+    background: $color-light-xl;
+    color: $color-dark-l;
+  }
 }

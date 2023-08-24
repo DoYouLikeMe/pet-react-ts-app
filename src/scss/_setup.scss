@@ -6,6 +6,7 @@ body {
   color: $color-dark-xl;
   font-size: $default-font-size;
   position: relative;
+  align-items: center;
 }
 
 .container {
@@ -13,4 +14,9 @@ body {
   margin: 0 auto;
   padding: 0 40px;
   box-sizing: border-box;
+}
+
+.img-res {
+  width: 100%;
+  display: flex;
 }

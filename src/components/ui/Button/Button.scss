@@ -1,0 +1,45 @@
+.button {
+  background-color: red;
+  padding: 15px 45px;
+  background-color: $color-light-xl;
+  color: $color-dark-xl;
+  font-family: $font-secondary;
+  max-width: fit-content;
+  border: 2px solid $color-primary;
+  box-sizing: border-box;
+  border-radius: 100px;
+  letter-spacing: 1.02px;
+  line-height: 130%;
+  font-size: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.5s ease-in;
+  cursor: pointer;
+  &:hover {
+    background-color: $color-primary-light;
+  }
+  &_prime {
+    background-color: $color-primary;
+  }
+  &_round {
+    border-radius: 50%;
+    display: block;
+    width: 52px;
+    height: 52px;
+    padding: 0;
+    max-width: none;
+  }
+  &_disabled {
+    cursor: none;
+    color: $color-dark-s;
+    transition: none;
+    background-color: $color-light-xl;
+    border-color: $color-dark-s;
+    &:hover {
+      border-color: $color-dark-s;
+      color: $color-dark-s;
+      background-color: $color-light-xl;
+    }
+  }
+}
