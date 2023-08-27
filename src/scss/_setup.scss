@@ -20,3 +20,12 @@ body {
   width: 100%;
   display: flex;
 }
+
+.page-section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  @media (max-width: $size-tablet) {
+    padding-top: 42px;
+    padding-bottom: 42px;
+  }
+}

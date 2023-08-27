@@ -2,7 +2,7 @@ import React from "react";
 import "@/scss/main.scss";
 import {Header} from "@/components/Header/Header";
 
-import {Main} from "@/pages/Main";
+import {Main} from "@/pages/Main/Main";
 import {OurPets} from "@/pages/OurPets";
 import {Help} from "@/pages/Help";
 import {Contacts} from "@/pages/Contacts";

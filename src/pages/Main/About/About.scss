@@ -1,0 +1,22 @@
+.about {
+  &__wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    align-items: center;
+    @media (max-width: $size-tablet) {
+      flex-direction: column-reverse;
+      align-items: center;
+      gap: 80px;
+    }
+  }
+  &__content {
+    max-width: 430px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+  &__image {
+    width: fit-content;
+  }
+}

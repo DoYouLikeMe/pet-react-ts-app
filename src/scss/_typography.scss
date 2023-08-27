@@ -9,7 +9,12 @@
     font-size: 33px;
   }
   &_secondary {
-    font-size: 32px;
+    font-size: 35px;
+    max-width: 370px;
+    letter-spacing: 2.1px;
+    @media (max-width: $size-tablet) {
+      font-size: 25px;
+    }
   }
   &_medium {
     font-size: 20px;
@@ -23,6 +28,7 @@
 
 .paragraph {
   margin: 0;
+  line-height: 160%;
   &_small {
     font-size: 12px;
     line-height: 150%;
