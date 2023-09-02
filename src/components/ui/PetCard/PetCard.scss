@@ -1,0 +1,17 @@
+.pet-card {
+  background-color: $color-light-xl;
+  gap: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 30px;
+  z-index: 20;
+
+  position: relative;
+  &__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+}

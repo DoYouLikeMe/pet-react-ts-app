@@ -14,6 +14,10 @@ body {
   margin: 0 auto;
   padding: 0 40px;
   box-sizing: border-box;
+  @media (max-width: $size-tablet) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
 
 .img-res {
@@ -27,5 +31,8 @@ body {
   @media (max-width: $size-tablet) {
     padding-top: 42px;
     padding-bottom: 42px;
+  }
+  &_grey {
+    background-color: $color-light-l;
   }
 }

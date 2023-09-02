@@ -3,6 +3,13 @@
 @import "setup";
 @import "mixins";
 
+@import "swiper/css";
+
+@import "swiper/css";
+@import "swiper/css/navigation";
+@import "swiper/css/pagination";
+@import "swiper/css/scrollbar";
+
 // Components
 @import "../components/Logo/Logo";
 @import "../components/Header/Header";
@@ -12,8 +19,9 @@
 
 // Ui
 @import "../components/ui/Button/Button";
-
+@import "../components/ui/PetCard/PetCard";
 //
 
 // Main
 @import "../pages/Main/About/About.scss";
+@import "../pages/Main/OurFriends/OurFriends.scss";

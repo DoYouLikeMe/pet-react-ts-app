@@ -1,5 +1,7 @@
 import PetsImage from "@/images/main/about-pets.png";
 
+import {Link} from "react-router-dom";
+
 export const About = () => {
   return (
     <section className="page-section about">

@@ -1,0 +1,41 @@
+.our-friends {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+  &__swiper {
+    max-width: 100%;
+  }
+  @media (max-width: $size-mobile) {
+    gap: 42px;
+  }
+}
+
+.swiper {
+  padding-left: 105px;
+  padding-right: 105px;
+  @media (max-width: $size-laptop) {
+    padding-left: 64px;
+    padding-right: 64px;
+  }
+  @media (max-width: $size-tablet) {
+    padding: 0;
+  }
+}
+
+.swiperButtons {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  margin-top: -26px;
+  left: 0;
+  & .button {
+    z-index: 10;
+  }
+  @media (max-width: $size-mobile) {
+    position: static;
+    margin-top: 20px;
+  }
+}
